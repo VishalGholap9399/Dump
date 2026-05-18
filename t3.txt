@@ -1,0 +1,23 @@
+UiAutomator2Options options = new UiAutomator2Options();
+options.setplatformName("Android");
+options.setplatformVersion("17");
+options.setAppPackage("Android");
+options.setAppActivity("com");
+options.setUdid("Andr356oid");
+options.setNoReset(true);
+options.setFullReset(false);
+
+
+AndroidDriver driver= new AndroidDriver(new URL(http://127.0.0.1:4723/wd/hub),options);
+
+XCUITestOptions options = new XCUITestOptions();
+options.setplatformName("ios");
+options.setplatformVersion("17");
+options.setbundleID("IOS");
+options.setautomatioName("XCUITest");
+options.setUdid("Andr356oid");
+options.setNoReset(true);
+options.setFullReset(false);
+
+
+IOSDriver driver= new IOSDriver(new URL(http://127.0.0.1:4723/wd/hub),options);
