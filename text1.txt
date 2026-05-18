@@ -1,1 +1,23 @@
 text1.txt
+WebElement ele = driver.findElement(By.id("id"));
+ele.click();
+driver.switchto().alert().accept();
+
+String filepathh="file";
+FileInputStrem fi=new FileInputStrem(file);
+XSSFWorkBook workbool = new Workbook(fi);
+XSSFSheet mysheet=workbook.getSheet("Sheet1");
+//for get data from excle
+MySheet.getrow(0).getCell(0).getStrringcellValue();
+//for saving data
+
+XSSFRow rowobj = mysheet.getRow(1);
+
+XSSFCell cell = rowobj.CreateCell();
+Cell.SetCelldata("data");
+
+FileOutputStream out = new FileOutputStream("File");
+workbook.write(out);
+out.close();
+
+
