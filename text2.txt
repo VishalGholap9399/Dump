@@ -1,0 +1,17 @@
+Application for Automation Test Engineer Role
+
+Dear Hiring Manager,
+
+I hope you are doing well.I am writing to express my interest in the Automation Testing position at your organization. I have approximately 4 years of experience in automation testing, specializing in Selenium, Appium, Java, and TestNG.
+
+I have hands-on experience in automating both web and mobile applications, which has helped reduce manual effort and improve overall test efficiency. 
+
+I have attached my resume for your review. I would welcome the opportunity to discuss how my skills and experience align with your requirements.
+
+Thank you for your time and consideration.
+
+Best regards,
+Vishal Gholap
+
+
+
